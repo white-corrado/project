@@ -1,0 +1,9 @@
+name: project-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.10
+  - ipykernel
+  - scikit-learn
+prefix: /opt/miniconda3/envs/dstoolbox
